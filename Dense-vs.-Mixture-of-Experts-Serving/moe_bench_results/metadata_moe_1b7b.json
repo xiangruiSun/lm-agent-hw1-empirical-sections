@@ -1,0 +1,22 @@
+{
+  "model_key": "moe_1b7b",
+  "model": "allenai/OLMoE-1B-7B-0924-Instruct",
+  "label": "OLMoE 1B active / 7B total",
+  "architecture": "moe",
+  "vllm_version": "0.28.0",
+  "transformers_version": "5.16.1",
+  "torch_version": "2.13.0+cu130",
+  "cuda_version": "13.0",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "compute_capability": "8.6",
+  "fp8_native_compute": false,
+  "flashinfer_sampler": "0",
+  "max_model_len": 4096,
+  "quantization": "fp8",
+  "kv_cache_dtype": "fp8",
+  "prefix_caching": false,
+  "prefill_batch_size": 4,
+  "decode_prompt_len": 32,
+  "decode_output_len": 512,
+  "repeats": 3
+}
